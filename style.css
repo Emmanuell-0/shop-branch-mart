@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  min-height: 100;
+  background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  color: #54575A;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.wrapper{
+  width: 1440px;
+  position: relative;
+  /* min-height: 100vh; */
+  height: 1388px;
+  margin: auto;
+  /* background: dodgerblue; */
+
+}
+
+.brand-img{
+  width: 193px;
+height: 47.638px;
+flex-shrink: 0;
+position: absolute;
+left: 221px ;
+top: 50.25px ;
+}
+.apple-store-btn{
+  position: absolute;
+ 
+/* flex-shrink: 0; */
+left: 221px;
+top: 531px
+}
+
+
+.apple-store-btn img{
+   width: 138.443px;
+height: 46.278px;
+}
+
+.google-play-btn{
+  position: absolute;
+left: 380.81px;
+top: 531px;
+}
+.google-play-btn img{
+  width: 156.186px;
+height: 46.277px;
+}
+.main-image-container{
+  
+  position: absolute;
+  left: 683.28px ;
+  top: 229.73px ;
+  width: 535.717px;
+height: 309.27px;
+}
+.main-image-container img{
+  /* width: 207.428px; */
+height: 411.152px;
+}
+
+.profile-img{
+  position: absolute;
+  left: 15.39px ;
+  top: 13.39px ;
+  width: 192.22px;
+  height: 416.227px;
+}
+.profile-img img{
+
+  /* width: 193px; */
+  height: 418px;
+}
+
+.order-img{
+  position: absolute;
+  left: 479px;
+  top: 913px ;
+  /* width: 193px; */
+  /* height: 444px; */
+  height: 470px;
+}
+
+.profile-img{
+  width: 224px;
+height: 444px;
+/* flex-shrink: 0; */
+position: absolute;
+left: 737px ;
+  top: 686px ;
+  /* width: 193px; */
+
+}
+.home-img{
+  position: absolute;
+  left: 995px ;
+  top: 908px;
+  width: 224px;
+  /* height: 444px; */
+
+  /* we changes home and order cause of box shadow difference */
+  height: 470px;
+}
+.product-img{
+  position: absolute;
+  left: 737px ;
+  top: 1157px ;
+  width: 193px;
+height: 209px;
+}
+.cart-img{
+  position: absolute;
+  left: 221px ;
+  top: 1157px ;
+  width: 224px;
+  height: 222px;
+}
+
+.title{
+  position: absolute;
+
+  width: 458px;
+/* font-family: Futura PT; */
+left: 221px;
+top: 236px;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 67.5px; /* 105.469% */
+}
+
+.text{
+  position: absolute;
+left: 221px;
+top: 403px;
+  width: 394px;
+  height: 96px;
+  /* color: #54575A;
+font-family: Futura PT; */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
